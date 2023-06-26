@@ -1,0 +1,26 @@
+.navbar-custom {
+    background-color: darkslateblue;
+  }
+
+  .container-custom {
+    background-color: cornsilk;
+    padding: 30px;
+  }
+  .bg-cornsilk {
+    background-color: cornsilk;
+  }
+  .h6-custom {
+    padding-top: 20px;
+  }
+  .navbar-space {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .form1 {
+    background-color:blanchedalmond;
+    color: black;
+    font-family: Arial;
+    width: 70%;
+    padding: 20px;
+  }
+  
