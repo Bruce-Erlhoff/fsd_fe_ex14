@@ -1,0 +1,26 @@
+1. create project folder (exercese14) using file explorer
+2. copy files from exercise7 (ecommerce site) to new folder
+3. npm init - creates package.json file 
+4. npm install lite-server
+- take defaults except replace main (entry point) with "index.html" instead of default "index.js"
+- creates node_modules folder with many packages dependent for lite-server
+- updates package.json file with dependencies
+5. edit package.json file "scripts" add "start" : "lite-server"
+6. npm start (starts the app from index.html using lite-server
+6.5 create repository in git
+7. add .gitignore file in main directory, ignore node_modules (dont want to carry all this with our project; the dependencies can be installed later after downloading project .zip file)
+8. from cmd prompt in project folder : git init (create .git folder)
+9. git status (files should be red - not commited)
+10. git add . (add files to be managed) (files green)
+11. git commit -m "first commit"
+12. git branch -M main
+13. git remote add origin (https://github.com/Bruce-Erlhoff/fsd_fe_ex14.git
+14. git push -u origin main (files pushed to github)
+
+-- test
+15. in git repository code section, download as .zip
+16. create new directory in code folder and unzip
+17. npm start (should get an error saying lite-server not found (because we did not commit all the dependencies)
+18. npm install (installs all the dependencies in the package-lock.json file
+19. npm start (now it works)
+
